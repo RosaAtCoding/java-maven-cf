@@ -1,0 +1,56 @@
+# =========================================================================
+# MAVEN
+# =========================================================================
+# Ignorar la carpeta de compilación donde se generan los .class y .jar/.war
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.note
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================================================================
+# IDEs (IntelliJ, Eclipse, VS Code)
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# =========================================================================
+# SISTEMA OPERATIVO / TEMPORALES
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de log
+*.log
+
+# Archivos temporales de editores de texto comunes
+*.swp
+*~
+
