@@ -26,8 +26,9 @@ mvn -B archetype:generate \
   -DarchetypeGroupId=org.apache.maven.archetypes \
   -DarchetypeArtifactId=maven-archetype-quickstart \
   -DarchetypeVersion=1.5 \
-  -Dmaven.compiler.source="$JAVA_VERSION" \
-  -Dmaven.compiler.target="$JAVA_VERSION"
+  -Dmaven.compiler.release="$JAVA_VERSION"
+#  -Dmaven.compiler.source="$JAVA_VERSION" \
+#  -Dmaven.compiler.target="$JAVA_VERSION"
 
 if [ $? -eq 0 ]; then
     echo "--------------------------------------------------"
